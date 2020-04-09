@@ -25,11 +25,125 @@
   	
  	<div class="container">
 		<div class="title">
-			<h2>Sign up for an appointment</h2>
+			<h2>Sign up:</h2>
 	 	</div>	
 		
 		<div class="form">
-			<input type="text" placeholder="What is your name?" name="Name" required>
+			<div class="row">
+			<div class="col float-right"> 
+				<p>Name:</p> 
+			</div>
+			<div class="col"> 
+			  	<input class="form_el" type="text" placeholder="Write here" name="Name" required>
+			</div>
+			</div>
+			
+			<div class="row">
+			<div class="col float-right"> 
+				<p>Last Name:</p> 
+			</div>
+			<div class="col"> 
+			  	<input class="form_el" type="text" placeholder="Write here" name="Name" required>
+			</div>
+			</div>
+			
+			<div class="row">
+			<div class="col float-right"> 
+				<p>Phone Number:</p> 
+			</div>
+			<div class="col"> 
+			  	<input class="form_el" type="text" placeholder="Write here" name="Name" required>
+			</div>
+			</div>
+			
+
+			<div class="row">
+				<div class="col float-right"> 
+				<p>Service needed:</p> 
+				</div>
+      		<div class="form_el input-field col s6">
+       	 		<select>
+				  <option value="" disabled selected>Choose your option</option>
+				  <option value="1">Delivery</option>
+				  <option value="2">Delivery as a gift</option>
+				  <option value="3">Event</option>
+				  <option value="4">Subscription</option>
+				  <option value="4">Collaboration</option>
+				</select>
+      		</div>
+			</div>
+			
+			<div class="row">
+				<div class="col float-right"> 
+				<p>Flower amount:</p> 
+				</div>
+				<div class="form_el input-field col s6">
+       	 		<select>
+				  <option value="" disabled selected>Choose your option</option>
+				  <option value="1">One flower used</option>
+				  <option value="2">2 or 3 flowers used</option>
+				  <option value="3">4 or more flowers used</option>
+				</select>
+      		</div>
+			</div>
+			
+			<div class="row">
+				<div class="col float-right"> 
+				<p>Flower arrangement type:</p> 
+				</div>
+				<div class="form_el input-field col s6">
+       	 		<select>
+				  <option value="" disabled selected>Choose your option</option>
+				  <option value="1">Single flower</option>
+				  <option value="2">Bouquet</option>
+				  <option value="3">Table arrangement</option>
+				</select>
+      		</div>
+			</div>
+			
+			<div class="row">
+				<div class="col float-right"> 
+				<p>Flowers to add:</p> 
+				</div>
+				<div class="col"> 
+			  	<input class="form_el" type="text" placeholder="Write here" name="Name" required>
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="col float-right"> 
+				<p>Flowers to avoid:</p> 
+				</div>
+				<div class="col"> 
+			  	<input class="form_el" type="text" placeholder="Write here" name="Name" required>
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="col float-right"> 
+				<p>Needed by:</p> 
+				</div>
+				<div class="col"> 
+			  	<input class="form_el" type="date" placeholder="Write here" name="Name" required>
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="col float-right"> 
+				<p>Comments</p> 
+				</div>
+				<div class="col"> 
+			  	<input class="form_el" type="text" placeholder="Write here" name="Name" required>
+				</div>
+			</div>
+			
+			<div class="row">
+				<button onclick="myFunction()">Submit</button>
+				<script>
+				function myFunction() { alert("Thank you! We'll talk soon!");}
+				</script>
+			</div>
+			
 		</div>
  	</div>
 

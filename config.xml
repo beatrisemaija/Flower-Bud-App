@@ -7,7 +7,7 @@
     <author email="support@phonegap.com" href="http://phonegap.com">
         PR8 - 173132 - Beatrise Maija Krievina 
     </author>
-    <feature name="http://api.phonegap.com/1.0/device" />
+    <feature name="" />
     <preference name="permissions" value="none" />
     <preference name="orientation" value="default" />
     <preference name="target-device" value="universal" />
