@@ -1,6 +1,29 @@
 @charset "utf-8";
 /* CSS Document */
+/* base style guide settings begining */
+body {
+	background-color: #efebeb;
+	padding: 10px;
+}
+.container {
+	padding: 10px;
+	background-color: #ffffff;
+}
+.element{
+	padding-bottom: 10px;
+}
+.row{
+	padding-bottom: 10px;
+}
 
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Montserrat', sans-serif
+}
+
+p{
+	font-family: 'Open Sans', sans-serif;
+}
+/* base style guide settings end */
 /* The side navigation menu */
 .sidenav {
   height: 100%; /* 100% Full-height */
@@ -9,7 +32,7 @@
   z-index: 1; /* Stay on top */
   top: 0;
   left: 0;
-  background-color: #111; /* Black*/
+  background-color: #bdb9b9; /* the dark grey*/
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 60px; /* Place content 60px from the top */
   transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
@@ -20,14 +43,14 @@
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 25px;
-  color:#FFFFFF;
+  color:#000000;
   display: block;
   transition: 0.3s;
 }
 
 /* When you mouse over the navigation links, change their color */
 .sidenav a:hover {
-  color:#ef5350 ;
+  color:#ff616f ;
 }
 
 /* Position and style the close button (top right corner) */
@@ -54,6 +77,10 @@
 .navbar_icon{
 	max-height: 40px;
 	vertical-align: bottom;
-	background-color: #ef5350;
- 	border-radius: 20%;
+	background-color: #ff1744;
+ 	border-radius: 15%;
+}
+
+.fixed-bottom{
+	padding:10px;
 }
