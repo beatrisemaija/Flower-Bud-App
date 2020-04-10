@@ -92,7 +92,6 @@ p{
 
 /*Image center beginning*/
 #founders_image{
-	flex: auto;
-	justify-content: center;
+text-align: center;
 }
 /*Image center end*/
