@@ -8,6 +8,7 @@ body {
 .container {
 	padding: 10px;
 	background-color: #ffffff;
+	border: 15px solid #ffffff;
 }
 .element{
 	padding-bottom: 10px;
@@ -84,3 +85,51 @@ p{
 .fixed-bottom{
 	padding:10px;
 }
+
+/* form element beginning*/
+.form_el{
+	background-color:#bdb9b9;
+	width: 100%;
+	color: #000000;
+	border: 2px solid #efebeb;
+ 	border-radius: 4px;	
+}
+
+.form_el:focus {
+  border: 3px solid #555;
+}
+
+select {
+  width: 100%;
+  padding: 16px 20px;
+  border: 2px solid #efebeb;
+  border-radius: 4px;
+  background-color: #bdb9b9;
+}
+
+textarea{
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #efebeb;
+  border-radius: 4px;
+  background-color: #bdb9b9;
+  resize: none;
+}
+
+button{
+  width: 20%;
+  background-color: #ff1744;
+  border: none;
+  color: black;
+  padding: 10px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+button:hover{
+	background-color: #ff616f;
+	
+}
+/*form element end */

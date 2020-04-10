@@ -15,6 +15,7 @@ body {
 }
 .row{
 	padding-bottom: 10px;
+	justify-content: center;
 /*deal with this*/
 
 }
@@ -90,8 +91,31 @@ p{
 	padding:10px;
 }
 
-/*Image center beginning*/
-#founders_image{
+
+
+/* button settings*/
+a{
+text-decoration: none;	
 text-align: center;
+color: #000000;
 }
-/*Image center end*/
+a:hover{
+text-decoration: none;	
+text-align: center;
+color: #000000;
+}
+.button{
+  background-color: #ff1744;
+  border: none;
+  color: black;
+  padding: 10px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+
+  
+}
+.button:hover{
+	background-color: #ff616f;
+	
+}

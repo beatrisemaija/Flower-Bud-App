@@ -27,8 +27,11 @@
   	
  	<div class="container">
 		<div class="title">
-			<h2>Sign up:</h2>
+			<h2 class="text-center">Sign up:</h2>
+			<p>Please fill in the following elements. When these are sent in, we can create and consultation for you. If there is no need for consultation, please be sure to add that in the comments. This form is set in place for us to be on top of all orders and get you in contact with the best possible specialist that you are in need of.</p>
+			<hr>
 	 	</div>	
+
 		
 		<div class="form">
 			<div class="row">
@@ -63,7 +66,7 @@
 				<div class="col float-right"> 
 				<p>Service needed:</p> 
 				</div>
-      		<div class="form_el input-field col s6">
+      		<div class="input-field col s6">
        	 		<select>
 				  <option value="" disabled selected>Choose your option</option>
 				  <option value="1">Delivery</option>
@@ -77,9 +80,9 @@
 			
 			<div class="row">
 				<div class="col float-right"> 
-				<p>Flower amount:</p> 
+				<p>Flower type amount:</p> 
 				</div>
-				<div class="form_el input-field col s6">
+				<div class="input-field col s6">
        	 		<select>
 				  <option value="" disabled selected>Choose your option</option>
 				  <option value="1">One flower used</option>
@@ -93,12 +96,27 @@
 				<div class="col float-right"> 
 				<p>Flower arrangement type:</p> 
 				</div>
-				<div class="form_el input-field col s6">
+				<div class="input-field col s6">
        	 		<select>
 				  <option value="" disabled selected>Choose your option</option>
 				  <option value="1">Single flower</option>
 				  <option value="2">Bouquet</option>
 				  <option value="3">Table arrangement</option>
+				</select>
+      		</div>
+			</div>
+			
+			<div class="row">
+			<div class="col float-right"> 
+				<p>Amount of these arrangements:</p>
+				<p><small>If you need multiple amount of arrangement types, please add them in the comments.</small></p>
+			</div>
+			<div class="input-field col s6">
+       	 		<select>
+				  <option value="" disabled selected>Choose your option</option>
+				   <option value="1">One</option>
+				  <option value="2">Two</option>
+				  <option value="3">Three or more</option>
 				</select>
       		</div>
 			</div>
@@ -124,6 +142,7 @@
 			<div class="row">
 				<div class="col float-right"> 
 				<p>Needed by:</p> 
+				<p><small>Please keep in mind if this is a complex order it will take at least 2 weeks.</small></p>
 				</div>
 				<div class="col"> 
 			  	<input class="form_el" type="date" placeholder="Write here" name="Name" required>
@@ -134,8 +153,8 @@
 				<div class="col float-right"> 
 				<p>Comments</p> 
 				</div>
-				<div class="col"> 
-			  	<input class="form_el" type="text" placeholder="Write here" name="Name" required>
+				<div class="col">
+				<textarea>Add your comments here</textarea>
 				</div>
 			</div>
 			
