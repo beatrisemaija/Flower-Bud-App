@@ -26,6 +26,8 @@ h1, h2, h3, h4, h5, h6{
 p{
 	font-family: 'Open Sans', sans-serif;
 }
+
+
 /* base style guide settings end */
 /* The side navigation menu */
 .sidenav {
@@ -87,3 +89,10 @@ p{
 .fixed-bottom{
 	padding:10px;
 }
+
+/*Image center beginning*/
+#founders_image{
+	flex: auto;
+	justify-content: center;
+}
+/*Image center end*/
