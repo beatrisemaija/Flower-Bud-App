@@ -1,6 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
-
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans&display=swap');
 /* base style guide settings begining */
 body {
 	background-color: #efebeb;
@@ -18,30 +18,13 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6{
-	font-family: 'Montserrat';
+	font-family: 'Montserrat', sans-serif;
 }
 
 p{
-	font-family: 'open_sansregular';
+	font-family: 'Open Sans', sans-serif;
 }
 
-@font-face {
-    font-family: 'open_sansregular';
-    src: url("../../Font Import/opensans-regular-webfont.woff2") format('woff2'),
-         url("../../Font Import/opensans-regular-webfont.woff") format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'montserratregular';
-    src: url("../../Font Import/montserrat-regular-webfont.woff2") format('woff2'),
-         url("../../Font Import/montserrat-regular-webfont.woff") format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
 /* base style guide settings end */
 
 /* The side navigation menu */
